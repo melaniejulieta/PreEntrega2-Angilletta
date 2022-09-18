@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+/* GLOBALES */
+#header {
+    background-color: #59231E;
+    padding: 7px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+#header .logo img {
+    width: 77px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#header .menu ul li {
+    display: inline-block;
+    padding: 5px;
+}
+
+#header .menu ul li a {
+    text-decoration: none;
+    color: #EBDDD1;
+    font-size: 18px;
+}
+
+#header .menu ul li a:hover {
+    color: #BF9780;
+}
+
+#body {
+    background-color: #EBDDD1;
+}
+
+/* HOME */
+#intro {
+    padding: 50px;
+    width: 700px;
+    height: auto;
+    text-align: center;
+    border: 3px solid #59231E;
+    color: #59231E;
+    margin-left: 100px;
+    position: relative;
+    top: 200px;
+}
+
+#intro .titulo {
+    font-size: 42px;
+    text-decoration: underline 3px;
+    margin-bottom: 10px;
+}
+
+span {
+    font-style: italic;
+    font-weight: 900;
+}
+.imagenPrincipal{
+    text-align: right;
+    margin-right: 100px;
+    position: relative;
+    bottom: 200px;
+}
+.imagenPrincipal img {
+    width: 700px;
+}
+
+
+/* GALERIA */
+
+#galeriaViewheight {
+    height: 100vh;
+}
+.mainGaleria h2 {
+    font-size: 40px;
+    text-decoration: underline;
+    color: #59231E;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.mainGaleria .imagenesGaleria{
+    text-align: center;
+}
+
+.mainGaleria .imagenesGaleria img {
+    width: 720px;
+    height: auto;
+    padding: 20px;
+}
+
+div.videosMusicales h2 {
+    font-size: 40px;
+    text-decoration: underline;
+    color: #59231E;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+div.videosMusicales {
+    text-align: center;
+}
+
+div.videosMusicales iframe {
+    width: 720px;
+    height: 420px;
+    padding: 20px;
+}
+
+/* DISCOGRAFIA */
+
+#body main.mainDiscografia div.albumes {
+    position: relative;
+    left: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#body main.mainDiscografia div.albumes img {
+    padding: 10px;
+}
+#body main.mainDiscografia div.albumes img:hover {
+    transition: all 1s;
+    transform: scale(2);
+}
+
+#body main.mainDiscografia div.albumes img.disco5 {
+    position: relative;
+    left: 375px;
+}
+
+
+/* TOUR */
+#body h2 {
+    font-size: 40px;
+    text-decoration: underline;
+    color: #59231E;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+
+#body section.infoTour div.recital1 {
+    text-align: center;
+}
+
+#body section.infoTour div.recital2 {
+    text-align: center;
+}
+
+#body section.infoTour div.recital3 {
+    text-align: center;
+}
+
+
+/* CONTACTO */
+#body div.textoContacto {
+    padding: 30px;
+    width: 500px;
+    height: auto;
+    text-align: left;
+    border: 3px solid #59231E;
+    margin-left: 300px;
+    margin-bottom: 50px;
+    margin-top: 180px;
+    color: #59231E;
+    position: relative;
+    top: 150px;
+}
+
+#body div.textoContacto h2 {
+    text-decoration: underline;
+    font-size: 32px;
+    margin-bottom: 17px;
+    margin-top: 0px;
+}
+
+#body div.textoContacto p {
+    font-size: 17px;
+}
+
+#mainContacto {
+    width: 500px;
+    height: auto;
+    border: 3px solid #59231E;
+    font-size: 17px;
+    text-decoration: underline;
+    margin-bottom: 200px;
+    margin-left: 900px;
+    padding: 30px;
+    position: relative;
+    bottom: 100px;
+}
+
+
+/* FOOTER */
+
+#footer {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-color: #59231E;
+}
+
+
+#footer div.logoFooter img {
+    width: 50px;
+    height: auto;
+    position: absolute;
+    left: 50%;
+}
+
+#footer div.copy p {
+    color: #EBDDD1;
+    position: absolute;
+    right: 0%;
+}
