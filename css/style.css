@@ -5,6 +5,11 @@
     font-family: serif;
 }
 /* GLOBALES */
+
+#body{
+    background-color: #BF9780;
+}
+
 #header {
     background-color: #59231E;
     padding: 7px;
@@ -104,9 +109,14 @@ span {
 }
 
 .mainGaleria .imagenesGaleria img {
-    width: 720px;
+    width: 480px;
     height: auto;
     padding: 20px;
+}
+
+.mainGaleria .imagenesGaleria img:hover {
+    transition: all 1s;
+    transform: scale(2);
 }
 
 div.videosMusicales h2 {
