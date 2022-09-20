@@ -186,7 +186,8 @@ div.videosMusicales iframe {
 
 
 /* CONTACTO */
-#body div.textoContacto {
+
+/* #body div.textoContacto {
     padding: 30px;
     width: 500px;
     height: auto;
@@ -210,11 +211,12 @@ div.videosMusicales iframe {
 #body div.textoContacto p {
     font-size: 17px;
 }
+*/
 
 #mainContacto {
-   width: auto;
-   height: 100vh;
-} 
+    width: auto;
+    height: 100vh;
+ } 
 
 /* FOOTER */
 
