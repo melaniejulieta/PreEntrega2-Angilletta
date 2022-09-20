@@ -12,6 +12,19 @@
     text-align: center;
 }
 
+.bg-propio {
+    background-color: #59231E;
+}
+
+.navbar {
+    font-size: 18px;
+}
+
+.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+  }
 
 #header .logo img {
     width: 77px;
@@ -189,18 +202,9 @@ div.videosMusicales iframe {
 }
 
 #mainContacto {
-    width: 500px;
-    height: auto;
-    border: 3px solid #59231E;
-    font-size: 17px;
-    text-decoration: underline;
-    margin-bottom: 200px;
-    margin-left: 900px;
-    padding: 30px;
-    position: relative;
-    bottom: 100px;
-}
-
+   width: auto;
+   height: 100vh;
+} 
 
 /* FOOTER */
 
