@@ -133,8 +133,8 @@ div.videosMusicales {
 }
 
 div.videosMusicales iframe {
-    width: 720px;
-    height: 420px;
+    width: 480px;
+    height: auto;
     padding: 20px;
 }
 
